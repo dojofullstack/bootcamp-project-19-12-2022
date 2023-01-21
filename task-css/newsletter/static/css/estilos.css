@@ -1,0 +1,62 @@
+
+* {
+    font-family: 'Pacifico', cursive;
+}
+
+p {
+    font-size: 23px;
+}
+h2 {
+    color: rgb(12, 234, 219);
+}
+
+div {
+    height: 150px;
+    background-color: yellow;
+    margin: 20px;
+}
+
+.elemento {
+    height: 150px;
+    background-color: rgb(18, 179, 3);
+    margin: 20px;
+}
+
+#newsletter {
+    background: url(https://thumbs.dreamstime.com/b/encabezado-de-banner-concepto-tecnolog%C3%ADa-asistida-hombre-discapacitado-en-silla-ruedas-rehabilitaci%C3%B3n-caracteres-lesionados-155935110.jpg);
+    background-size: cover;
+    border: 5px solid black;
+    height: 290px;
+    width: 800px;
+    background-color: tomato;
+    padding: 25px;
+    margin: 10px;
+    position: fixed;
+    top: 33%;
+    left: 25%;
+}
+
+#btn-enviar {
+    background-color: purple;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+
+.boton-cerrar {
+    color: white;
+    position: relative;
+    top: 1px;
+    left: 95%;
+}
+
+
+h1, label {
+    color: white;
+}
+
+#email {
+    font-size: 18px;
+}

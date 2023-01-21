@@ -1,0 +1,61 @@
+
+
+
+.flex-container {
+    height: 500px;
+    display: flex;
+    margin: 10px;
+    background-color: purple;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    /* justify-content: center; */
+    /* align-items: flex-end; */
+    /* align-content: space-between; */
+}
+
+
+
+.flex-container > div {
+    height: 100px;
+    max-width: 400px;
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid yellow;
+}
+
+
+.item-0 {
+    background-color: cornflowerblue;
+    flex-grow: 1;
+}
+
+.item-1 {
+    background-color: rgb(7, 189, 73);
+    flex-grow: 2;
+}
+
+
+.item-2 {
+    background-color: rgb(206, 217, 7);
+    flex-shrink: 1;
+}
+
+.item-3 {
+    background-color: rgb(83, 21, 191);
+    flex-shrink: 2;
+}
+
+.item-4 {
+    background-color: orangered;
+    flex-basis: 100px;
+}
+
+
+
+.item-5 {
+    background-color: aqua;
+    flex: 200px;
+}

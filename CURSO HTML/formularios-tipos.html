@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Formularios Tipos</h1>
+
+<form method="POST" action="https://en0qo0tl7vw38.x.pipedream.net/">
+
+
+    <fieldset>
+        <legend> <h3> <mark>Iniciar Sesion</mark>  </h3> </legend>
+
+
+        <label for="usuario">Nombre:</label>
+        <input type="text" id="usuario" name="user"  placeholder="ingresa tu nombre" required />
+    
+        <br>
+    
+        <label for="password">contrasena:</label>
+        <input type="password" id="password" name="password" required/>
+  
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend> Datos del Alumno </legend>
+
+        <label for="birhtday">Fecha de nacimiento:</label>
+        <input type="date" name="birhtday"  id="birhtday"/>
+        <br>
+
+
+        <label for="age">Edad</label>
+        <input type="number" value="10" id="age">
+
+        <br> <br>
+
+        <label for="gender">Genero: </label> <br>
+
+        <label for="men">Masculino:</label>
+        <input type="radio" id="men" name="gender" value="men">
+        <label for="women">Femenino:</label>
+        <input type="radio" id="women" name="gender" value="women" >
+        <br> <br>
+
+        <label><b>Pastiempos</b> </label><br>
+
+        <label for="hobbie">Montar Bicleta:</label>
+        <input type="checkbox" id="hobbie" name="hobbie" value="montar bicileta" >
+
+        <label for="cantar">Cantar villancicos</label>
+        <input type="checkbox" id="cantar" name="hobbie" value="Canta" >
+
+        <label for="coding">programar web</label>
+        <input type="checkbox" id="coding" name="hobbie" value="programar" >
+
+        <br> <br>
+
+        <label>Selecciona tu color fav.</label>
+        <input type="color" name="color_fav" />
+        <br> <br>
+
+        <label>Rango de salario estimado</label>
+        <input type="range" min="1" max="3000" value="1000" name="salario" />
+
+
+        <br> <br>
+        <label>Sube tu C.V</label>
+        <input type="file" name="file_cv" accept="*" />
+
+        <br> <br>
+        <input type="hidden" name="token_validation"  value="token-019201901912" />
+
+
+
+
+        <input type="url" value="ingresa  tu perfi Linkedin" required name="perfil">
+
+        
+
+
+        <input type="reset" value="limpiar Formulario">
+    </fieldset>
+
+
+
+
+
+    <br>
+
+
+<fieldset>
+    <legend>Lenguaje de programacion favorito</legend>
+
+    <label>cual fue tu primer de Lenguaje de pro.</label>
+
+
+    <select name="Lenguaje_favoito">
+
+        <option value="javaScript" >L. JavaScript</option>
+        <option value="python" >L. Python</option>
+        <option value="perl">L. Perl</option>
+        <option value="C">L. C</option>
+
+    </select>
+
+
+
+</fieldset>
+
+
+
+
+    <!-- <input type="button" value="Enviar Solicitud" id="enviar_datos"> -->
+
+    <input type="submit" value="Enviar Solicitud" />
+
+</form>
+
+</body>
+</html>

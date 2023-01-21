@@ -1,0 +1,45 @@
+
+
+img {
+    max-width: 400px;
+}
+
+
+.contenedor-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+.item-flex {
+    flex: 25%;
+}
+
+
+@media screen and (max-width:  768px) {
+    .item-flex {
+        background-color: aquamarine;
+        max-width: 300px;
+    }
+
+
+    img {
+        max-width: 300px;
+    }
+}
+
+
+
+
+@media screen and (max-width:  480px) {
+    .item-flex {
+        background-color: rgb(171, 27, 200);
+        max-width: 200px;
+    }
+
+    img {
+        max-width: 200px;
+    }
+}
